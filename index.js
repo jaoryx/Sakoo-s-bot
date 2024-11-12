@@ -24,6 +24,10 @@ for (i = 0; i < functionKeys.length; i++) {
     client[functionKeys[i]] = functions[functionKeys[i]];
 };
 
+['command_handler', 'event_handler'].forEach(handler => {
+    require(`./handlers/${handler}`)(client);
+});
+
 // Handle the unhandled exceptions
 process.on('unhandledRejection', (error, p) => {
     client.Log('[ERROR]: ' + error);
