@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "A private Discord bot with general features made by Jaoryx (previously Jaoryx#0001)",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
