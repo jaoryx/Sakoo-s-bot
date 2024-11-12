@@ -1,0 +1,22 @@
+{
+  "name": "sakoo-s-bot",
+  "version": "1.0.0",
+  "description": "A private Discord bot with general features made by Jaoryx (previously Jaoryx#0001)",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaoryx.Sakoo-s-bot.git"
+  },
+  "author": "Jaoryx",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/voice": "^0.17.0",
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "play-dl": "github:Yoduh/play-dl-test"
+  }
+}
